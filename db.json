@@ -1,27 +1,38 @@
 {
-  questions: [
-    {
-      id: 0,
-      type: "text",
-      q: "Hi, what is your name?"
-    },
-    {
-      id: 1,
-      type: "options",
-      q: "What is your favourite sports?",
-      options: ["football", "cricket", "basketball", "volleyball"]
-    },
-    {
-      id: 2,
-      type: "options",
-      options: ["yes", "no"],
-      q: "Do you play {1}?"
-    },
-    {
-      id: 3,
-      type: "options",
-      options: ["yes", "no"],
-      q: "Did you answer {2}?"
-    }
-  ]
+   "questions":[
+      {
+         "id":0,
+         "type":"text",
+         "q":"Hi, what is your name?"
+      },
+      {
+         "id":1,
+         "type":"options",
+         "q":"What is your favourite sports?",
+         "options":[
+            "football",
+            "cricket",
+            "basketball",
+            "volleyball"
+         ]
+      },
+      {
+         "id":2,
+         "type":"options",
+         "options":[
+            "yes",
+            "no"
+         ],
+         "q":"Do you play {1}?"
+      },
+      {
+         "id":3,
+         "type":"options",
+         "options":[
+            "yes",
+            "no"
+         ],
+         "q":"Did you answer {2}?"
+      }
+   ]
 }
